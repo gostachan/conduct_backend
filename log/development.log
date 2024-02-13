@@ -864,3 +864,687 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
 
 
+Started GET "/" for ::1 at 2024-02-13 08:43:53 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 375)
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 4204)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 08:43:59 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 34ms (Views: 0.3ms | ActiveRecord: 1.4ms | Allocations: 30170)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 08:43:59 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 0.1ms | Allocations: 1512)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 08:46:11 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 1518)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 08:46:11 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 08:46:12 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 1518)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 08:46:12 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
+
+
+Started GET "/" for ::1 at 2024-02-13 08:47:16 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 196)
+
+
+Started GET "/" for ::1 at 2024-02-13 08:47:18 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 202)
+
+
+Started GET "/routes" for ::1 at 2024-02-13 08:47:21 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/routes" for ::1 at 2024-02-13 08:47:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/favicon.ico" for ::1 at 2024-02-13 08:47:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/rails/info/routes?query=arti" for ::1 at 2024-02-13 08:47:27 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"arti"}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 8064)
+
+
+Started GET "/rails/info/routes?query=article" for ::1 at 2024-02-13 08:47:28 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"article"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6838)
+
+
+Started POST "/article" for ::1 at 2024-02-13 09:23:14 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/article"):
+  
+Started POST "/articles" for ::1 at 2024-02-13 09:24:24 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"hoge", "description"=>"gaha", "content"=>"fooo", "article"=>{"title"=>"hoge", "content"=>"fooo", "description"=>"gaha"}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2979)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:24:25 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"hoge", "description"=>"gaha", "content"=>"fooo", "article"=>{"title"=>"hoge", "content"=>"fooo", "description"=>"gaha"}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 139)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:24:40 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 143)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:25:52 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 139)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:26:11 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"hoge", "description"=>"gaha", "content"=>"misaki", "article"=>{"title"=>"hoge", "content"=>"misaki", "description"=>"gaha"}}
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 139)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:26:11 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"hoge", "description"=>"gaha", "content"=>"misaki", "article"=>{"title"=>"hoge", "content"=>"misaki", "description"=>"gaha"}}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 139)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:26:12 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"hoge", "description"=>"gaha", "content"=>"misaki", "article"=>{"title"=>"hoge", "content"=>"misaki", "description"=>"gaha"}}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 139)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:27:19 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 139)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:28:04 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/articles_controller.rb:8:in `create'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 6.0ms | Allocations: 5202)
+
+
+Started GET "/" for ::1 at 2024-02-13 09:28:23 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 263)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 865)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:28:26 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.3ms | Allocations: 4853)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:28:26 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1510)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:30:55 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 6.0ms | Allocations: 10055)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:30:57 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1514)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:31:01 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 1506)
+
+
+Started DELETE "/articles/1" for ::1 at 2024-02-13 09:32:08 +0900
+Processing by ArticlesController#destroy as */*
+  Parameters: {"query"=>"", "id"=>"1", "article"=>{}}
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:13:in `destroy'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:14:in `destroy'
+  [1m[36mArticle Destroy (1.1ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:14:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:14:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 2.3ms | Allocations: 4845)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:32:10 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.9ms | Allocations: 5576)
+
+
+Started DELETE "/articles/2" for ::1 at 2024-02-13 09:32:17 +0900
+Processing by ArticlesController#destroy as */*
+  Parameters: {"query"=>"", "id"=>"2", "article"=>{}}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:13:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:14:in `destroy'
+  [1m[36mArticle Destroy (3.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/articles_controller.rb:14:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:14:in `destroy'
+Completed 204 No Content in 11ms (ActiveRecord: 4.0ms | Allocations: 1567)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:32:21 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1333)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:34:17 +0900
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 353)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:34:38 +0900
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4", "user_id"=>1}}
+[31mUnpermitted parameter: :user_id. Context: { controller: ArticlesController, action: create, request: #<ActionDispatch::Request:0x0000000105c297e0>, params: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4", "user_id"=>1}, "controller"=>"articles", "action"=>"create"} }[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 381)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:34:44 +0900
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4", "user_id"=>1}}
+[31mUnpermitted parameter: :user_id. Context: { controller: ArticlesController, action: create, request: #<ActionDispatch::Request:0x00000001058cd218>, params: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4", "user_id"=>1}, "controller"=>"articles", "action"=>"create"} }[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 355)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:34:47 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 1327)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:34:52 +0900
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4", "user_id"=>1}}
+[31mUnpermitted parameter: :user_id. Context: { controller: ArticlesController, action: create, request: #<ActionDispatch::Request:0x0000000106a5e388>, params: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4", "user_id"=>1}, "controller"=>"articles", "action"=>"create"} }[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 354)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:36:09 +0900
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"title4", "description"=>"description4", "content"=>"content4"}}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mArticle Create (1.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "content", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", "title4"], ["content", "content4"], ["description", "description4"], ["user_id", 1], ["created_at", "2024-02-13 00:36:09.783648"], ["updated_at", "2024-02-13 00:36:09.783648"]]
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 2.7ms | Allocations: 11611)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:38:17 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 1.3ms | Allocations: 9991)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:38:17 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1422)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:39:36 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mArticle Create (3.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "content", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", ""], ["content", ""], ["description", ""], ["user_id", 1], ["created_at", "2024-02-13 00:39:36.381229"], ["updated_at", "2024-02-13 00:39:36.381229"]]
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+Completed 200 OK in 21ms (Views: 2.0ms | ActiveRecord: 4.4ms | Allocations: 2813)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:40 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:40 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:44 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:44 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:48 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:48 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:51 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:51 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:39:54 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1506)
+
+
+Started DELETE "/articles/5" for ::1 at 2024-02-13 09:40:05 +0900
+Processing by ArticlesController#destroy as */*
+  Parameters: {"query"=>"", "id"=>"5", "article"=>{}}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:15:in `destroy'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mArticle Destroy (1.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 2.2ms | Allocations: 1725)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:40:07 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 1417)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:40:12 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms | Allocations: 1414)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:40:12 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1414)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:40:47 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"title5", "description"=>"descrption5", "content"=>"content5", "article"=>{"title"=>"title5", "content"=>"content5", "description"=>"descrption5"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mArticle Create (1.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "content", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", "title5"], ["content", "content5"], ["description", "descrption5"], ["user_id", 1], ["created_at", "2024-02-13 00:40:47.641638"], ["updated_at", "2024-02-13 00:40:47.641638"]]
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 2.1ms | Allocations: 2374)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:40:57 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 1503)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:40:57 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1504)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:41:11 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mArticle Create (1.1ms)[0m  [1m[32mINSERT INTO "articles" ("title", "content", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", ""], ["content", ""], ["description", ""], ["user_id", 1], ["created_at", "2024-02-13 00:41:11.630289"], ["updated_at", "2024-02-13 00:41:11.630289"]]
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 1.8ms | Allocations: 2376)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:41:13 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"hoge", "description"=>"gaha", "content"=>"foo", "article"=>{"title"=>"hoge", "content"=>"foo", "description"=>"gaha"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mArticle Create (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "content", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", "hoge"], ["content", "foo"], ["description", "gaha"], ["user_id", 1], ["created_at", "2024-02-13 00:41:13.608029"], ["updated_at", "2024-02-13 00:41:13.608029"]]
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.5ms | Allocations: 2374)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:41:16 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 1682)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:41:16 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1682)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:41:23 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 1685)
+
+
+Started DELETE "/articles/7" for ::1 at 2024-02-13 09:41:27 +0900
+Processing by ArticlesController#destroy as */*
+  Parameters: {"query"=>"", "id"=>"7", "article"=>{}}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:15:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.8ms | Allocations: 1564)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:41:32 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 1596)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:41:36 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 1593)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:41:36 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1593)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:47:55 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "content", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", ""], ["content", ""], ["description", ""], ["user_id", 1], ["created_at", "2024-02-13 00:47:55.380104"], ["updated_at", "2024-02-13 00:47:55.380104"]]
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 3.6ms | Allocations: 2653)
+
+
+Started POST "/articles" for ::1 at 2024-02-13 09:47:58 +0900
+Processing by ArticlesController#create as HTML
+  Parameters: {"title"=>"", "description"=>"", "content"=>"", "article"=>{"title"=>"", "content"=>"", "description"=>""}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mArticle Create (1.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "content", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", ""], ["content", ""], ["description", ""], ["user_id", 1], ["created_at", "2024-02-13 00:47:58.192718"], ["updated_at", "2024-02-13 00:47:58.192718"]]
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:10:in `create'
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 2.0ms | Allocations: 2374)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:48:27 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 1835)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:48:27 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 1771)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:48:32 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 1774)
+
+
+Started DELETE "/articles/9" for ::1 at 2024-02-13 09:48:38 +0900
+Processing by ArticlesController#destroy as */*
+  Parameters: {"query"=>"", "id"=>"9", "article"=>{}}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:15:in `destroy'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mArticle Destroy (1.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 9]]
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 2.0ms | Allocations: 1596)
+
+
+Started DELETE "/articles/10" for ::1 at 2024-02-13 09:48:42 +0900
+Processing by ArticlesController#destroy as */*
+  Parameters: {"query"=>"", "id"=>"10", "article"=>{}}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:15:in `destroy'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 10]]
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:16:in `destroy'
+Completed 204 No Content in 2ms (ActiveRecord: 0.5ms | Allocations: 1564)
+
+
+Started GET "/articles" for ::1 at 2024-02-13 09:48:46 +0900
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 1596)
+
+
