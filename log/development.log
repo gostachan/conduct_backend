@@ -1548,3 +1548,152 @@ Processing by ArticlesController#index as */*
 Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 1596)
 
 
+Started GET "/" for ::1 at 2024-02-26 15:43:34 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 375)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 4271)
+
+
+Started GET "/" for ::1 at 2024-02-26 15:43:35 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 192)
+
+
+Started GET "/routes" for ::1 at 2024-02-26 15:43:38 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/favicon.ico" for ::1 at 2024-02-26 15:43:38 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/rails/info/routes?query=users" for ::1 at 2024-02-26 15:43:45 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"users"}
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 8297)
+
+
+Started GET "/rails/info/routes?query=users" for ::1 at 2024-02-26 15:43:45 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"users"}
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7050)
+
+
+Started GET "/rails/info/routes?query=user" for ::1 at 2024-02-26 15:43:46 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"user"}
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6788)
+
+
+Started GET "/rails/info/routes?query=user" for ::1 at 2024-02-26 15:43:48 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"user"}
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6774)
+
+
+Started GET "/rails/info/routes?query=r" for ::1 at 2024-02-26 15:44:12 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"r"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 5995)
+
+
+Started GET "/rails/info/routes?query=artic" for ::1 at 2024-02-26 15:44:13 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"artic"}
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6869)
+
+
+Started GET "/rails/info/routes?query=articles" for ::1 at 2024-02-26 15:44:14 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"articles"}
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6816)
+
+
+Started GET "/rails/info/routes?query=articles" for ::1 at 2024-02-26 15:44:15 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"articles"}
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6804)
+
+
+Started GET "/" for ::1 at 2024-02-26 15:44:21 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.0ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 188)
+
+
+Started GET "/" for ::1 at 2024-02-26 15:44:22 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 202)
+
+
+Started GET "/articles" for ::1 at 2024-02-26 15:44:27 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 2.4ms | Allocations: 30265)
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? /* loading for pp */ LIMIT ?[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? /* loading for pp */ LIMIT ?[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" /* loading for pp */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? /* loading for pp */ LIMIT ?[0m  [["user_id", 1], ["LIMIT", 11]]
+Started GET "/articles" for ::1 at 2024-02-26 17:12:46 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY "articles"."created_at" DESC LIMIT ?[0m  [["LIMIT", 10]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 0.1ms | ActiveRecord: 0.9ms | Allocations: 32516)
+
+
+Started GET "/" for ::1 at 2024-03-13 13:55:47 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/haramisaki/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 375)
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 4204)
+
+
+Started GET "/routes" for ::1 at 2024-03-13 13:55:50 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/favicon.ico" for ::1 at 2024-03-13 13:55:50 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/rails/info/routes?query=ari" for ::1 at 2024-03-13 13:55:54 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"ari"}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 8239)
+
+
+Started GET "/rails/info/routes?query=ar" for ::1 at 2024-03-13 13:55:55 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"ar"}
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6790)
+
+
+Started GET "/rails/info/routes?query=artic" for ::1 at 2024-03-13 13:55:56 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"artic"}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6870)
+
+
+Started GET "/rails/info/routes?query=articles" for ::1 at 2024-03-13 13:55:57 +0900
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"query"=>"articles"}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6816)
+
+
