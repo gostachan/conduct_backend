@@ -1,6 +1,8 @@
 # AWS編
 [backend API](https://www.trustynews.net/articles)
 
+![alt](aws-archtecture.png)
+
 # 現段階で実装できているところ
 * articles#index
 
